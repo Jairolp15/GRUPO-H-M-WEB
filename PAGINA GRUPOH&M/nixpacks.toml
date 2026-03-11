@@ -1,0 +1,8 @@
+[phases.setup]
+nixPkgs = ["nodePackages.npm", "nodejs_18"]
+
+[phases.build]
+cmds = ["npm install"]
+
+[start]
+cmd = "npm start"
